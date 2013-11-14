@@ -184,7 +184,6 @@ form.search fieldset input[type="text"] {
 }
 /*alerts*/
 .alert-boxes {
-  padding: 8px 10px;
   background: #eee;
   position: relative;
   line-height: 24px;
@@ -210,8 +209,8 @@ form.search fieldset input[type="text"] {
 .feedback-label {
   display: inline-block;
   margin: 5px 10px 10px 0;
-  border-radius: 5px;
   padding: 8px 10px;
+  border-radius: 5px;
   background: #eee;
   position: relative;
   line-height: 24px;
@@ -225,9 +224,9 @@ form.search fieldset input[type="text"] {
 .feedback-badge {
   display: inline-block;
   margin: 5px 10px 10px 0;
-  border-radius: 10px;
+  padding: 4px 8px;
+  border-radius: 5px;
   text-align: center;
-  padding: 8px 10px;
   background: #eee;
   position: relative;
   line-height: 24px;
@@ -237,7 +236,8 @@ form.search fieldset input[type="text"] {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
-/* information box */.information {
+/* information box */
+.information {
   background-color: #ECF8FF;
   border-color: #CFE7FF;
   color: #1C3E55;

@@ -194,7 +194,7 @@ form.search fieldset input[type="text"] {
   background: #eee;
   position: relative;
   line-height: 24px;
-  border: 1px solid #999;
+  /*border: 1px solid #999;*/
   margin-bottom: 12px;
   font-size: 80%;
   -webkit-text-size-adjust: 100%;
@@ -207,7 +207,7 @@ form.search fieldset input[type="text"] {
   background: #eee;
   position: relative;
   line-height: 24px;
-  border: 1px solid #999;
+  /*border: 1px solid #999;*/
   margin-bottom: 12px;
   font-size: 80%;
   -webkit-text-size-adjust: 100%;
@@ -221,7 +221,7 @@ form.search fieldset input[type="text"] {
   background: #eee;
   position: relative;
   line-height: 24px;
-  border: 1px solid #999;
+  /*border: 1px solid #999;*/
   margin-bottom: 12px;
   font-size: 80%;
   -webkit-text-size-adjust: 100%;
@@ -237,7 +237,7 @@ form.search fieldset input[type="text"] {
   background: #eee;
   position: relative;
   line-height: 24px;
-  border: 1px solid #999;
+  /*border: 1px solid #999;*/
   margin-bottom: 12px;
   font-size: 80%;
   -webkit-text-size-adjust: 100%;

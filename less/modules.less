@@ -50,7 +50,8 @@ nav>ul>li {padding: 0; margin: 0; float:	left;
 
 .navbar .selected {background-color: @nav-selected-bg-color;}
 .navbar .selected:first-child {border-radius: 5px 0 0 5px;}
-.navbar .btn:hover {color:@nav-hover-color; cursor: pointer;}
+.navbar .btn:hover {color:@nav-hover-color; cursor: pointer;background-color:	darken(@nav-selected-bg-color, 5%);
+}
 
 /*slats*/
 .slats {
@@ -153,7 +154,7 @@ nav>ul>li {padding: 0; margin: 0; float:	left;
 	background-color:	@th-bgcolor;
 	text-align:	left;
 	font-size:	80%;
-	padding:	5px;
+	padding:	5px 10px;
 	border-bottom:	1px	solid	@default-bdr-color;
 }
 
@@ -171,7 +172,6 @@ nav>ul>li {padding: 0; margin: 0; float:	left;
 }
 
 /*mobile tables*/
-<<<<<<< HEAD
 .table-wrapper {
   overflow: hidden;
 }
@@ -179,10 +179,9 @@ nav>ul>li {padding: 0; margin: 0; float:	left;
   overflow-x: scroll;
 }
 
-=======
 .table-wrapper {overflow:hidden;}
 .table-scroller {overflow-x:scroll;}
->>>>>>> 659fca9d3f3ec58b57d9c3cddcabe3952ae6a25b
+
 /*search*/
 .search > fieldset {
 	border:	0 none;
